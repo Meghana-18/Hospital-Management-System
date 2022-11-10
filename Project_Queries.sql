@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 --drop database HealthcareSystem_DB;
 
 CREATE DATABASE HealthcareSystem_DB;
 
 use HealthcareSystem_DB;
 
+=======
+--drop database HealthcareSystem_DB;
+
+CREATE DATABASE HealthcareSystem_DB;
+
+use HealthcareSystem_DB;
+
+>>>>>>> 5fff45a (First commit)
 CREATE TABLE Patient(
   PID int not null identity(1,1)  primary key,
   PFirstName varchar(40) NOT NULL,
@@ -29,12 +38,21 @@ CREATE TABLE Doctor(
   DMiddleName varchar(40) NOT NULL,
   DLastName varchar(40) NOT NULL,
   DMobile varchar(10) not null,
+<<<<<<< HEAD
   DEmailID varchar(100) not null,
   DHouseNo varchar(20) not null,
   DSociety varchar(20) not null,
   DArea varchar(20) not null,
   DCity varchar(20) not null,
   DState varchar(20) not null,
+=======
+  DEmailID varchar(100) not null,
+  DHouseNo varchar(20) not null,
+  DSociety varchar(20) not null,
+  DArea varchar(20) not null,
+  DCity varchar(20) not null,
+  DState varchar(20) not null,
+>>>>>>> 5fff45a (First commit)
   DDOB datetime not null,
   DGender varchar(6),
   DSpecialization varchar(20) not null,
@@ -63,12 +81,21 @@ CREATE TABLE Nurse(
   NMiddleName varchar(40) NOT NULL,
   NLastName varchar(40) NOT NULL,
   NMobile varchar(10) not null,
+<<<<<<< HEAD
   NEmailID varchar(100) not null,
   NHouseNo varchar(20) not null,
   NSociety varchar(20) not null,
   NArea varchar(20) not null,
   NCity varchar(20) not null,
   NState varchar(20) not null,
+=======
+  NEmailID varchar(100) not null,
+  NHouseNo varchar(20) not null,
+  NSociety varchar(20) not null,
+  NArea varchar(20) not null,
+  NCity varchar(20) not null,
+  NState varchar(20) not null,
+>>>>>>> 5fff45a (First commit)
   NDOB datetime not null,
   NGender varchar(6),
   NSalary decimal not null,
@@ -80,12 +107,21 @@ CREATE TABLE WardBoy(
   WMiddleName varchar(40) NOT NULL,
   WLastName varchar(40) NOT NULL,
   WMobile varchar(10) not null,
+<<<<<<< HEAD
   WEmailID varchar(100) not null,
   WHouseNo varchar(20) not null,
   WSociety varchar(20) not null,
   WArea varchar(20) not null,
   WCity varchar(20) not null,
   WState varchar(20) not null,
+=======
+  WEmailID varchar(100) not null,
+  WHouseNo varchar(20) not null,
+  WSociety varchar(20) not null,
+  WArea varchar(20) not null,
+  WCity varchar(20) not null,
+  WState varchar(20) not null,
+>>>>>>> 5fff45a (First commit)
   WDOB datetime not null,
   WGender varchar(6),
   WSalary decimal not null,
